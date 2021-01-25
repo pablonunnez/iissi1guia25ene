@@ -145,6 +145,8 @@ MAX()
 MIN()
 SUM()
 GROUP BY 
+JOIN teachingloads ON ( = )
+NATURAL JOIN 
 
 DELIMITER //
 CREATE OR REPLACE PROCEDURE procedimiento(s INT)
